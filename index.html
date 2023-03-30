@@ -10,9 +10,16 @@
 <body>
    <div class="container">
     <div class="inputBox">
-        <input type="text" placeholder= "Enter Todo here" class="" />
+        <input id="getTodoInput" type="text" placeholder= "Enter Todo here" class="" />
         <span class="crossIcon">X</span>
     </div>
+    <button type="button" onclick="addTodo()">Add Todo</button>
+
+    <ul id="todoListContainer" class="todoList">
+       
+    </ul>
    </div>
 </body>
+<script src="Todo.js"></script>
+<script src="index.js"></script>
 </html>

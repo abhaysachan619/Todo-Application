@@ -27,3 +27,20 @@
   transform: translate(0, -50%);
   right: 15px;
 }
+
+button {
+  margin-top: 20px;
+}
+
+.todoList {
+  padding: 0;
+  list-style: none;
+}
+
+.todoList input {
+  width: calc(100%-20px);
+}
+
+.todoList .crossIcon {
+  right: -20px;
+}
