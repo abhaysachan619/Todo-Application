@@ -11,11 +11,11 @@
    <div class="container">
     <div class="inputBox">
         <input id="getTodoInput" type="text" placeholder= "Enter Todo here" class="" />
-        <span class="crossIcon">X</span>
+        <span class="crossIcon" onclick="emptyTodoInput()">X</span>
     </div>
     <button type="button" onclick="addTodo()">Add Todo</button>
 
-    <ul onclick="handleClick(event)" id="todoListContainer" class="todoList">
+    <ul ondblclick="makeInputEditable(event)" onclick="handleClick(event)" id="todoListContainer" class="todoList">
        
     </ul>
    </div>

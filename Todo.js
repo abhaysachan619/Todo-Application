@@ -25,4 +25,8 @@ class Todo{
     getTodos(){
         return this.todos
     }
+
+    setTodos(todos){
+      this.todos = todos
+    }
 }
