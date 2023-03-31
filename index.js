@@ -37,3 +37,10 @@ function addTodo(){
     todo.addTodo(inputValue)  
     renderList()  
 }
+
+function handleClick(e){
+    if(e && e.target && e.target.id && e.target.nodeName === 'SPAN'){
+        todo.deleteTodo(e.target.id)
+        renderList()
+    }
+}

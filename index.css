@@ -41,6 +41,10 @@ button {
   width: calc(100%-20px);
 }
 
+.todoList > li {
+  margin-bottom: 20px;
+}
+
 .todoList .crossIcon {
   right: -20px;
 }

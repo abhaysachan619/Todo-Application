@@ -5,7 +5,7 @@ class Todo{
     }
 
     addTodo(value){
-     this.todos.push({id: parseInt(Math.random()*1000), value})
+     this.todos.push({id: parseInt(Math.random()*1000).toString(), value})
     }
 
     deleteTodo(id) {
